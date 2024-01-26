@@ -3,8 +3,11 @@ import {
   people02,
   people03,
   facebook,
+  tiktok,
+  whatsapp,
   instagram,
   linkedin,
+  mail,
   twitter,
   airbnb,
   binance,
@@ -245,22 +248,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/psk.dan.ibrahimsafavarol_/?igsh=MWl3d2VmM3Z6a3FzdQ%3D%3D&utm_source=qr",
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    icon: tiktok,
+    link: "https://www.tiktok.com/@psk..dan..ibrahim?_t=8jM9BuGBs18&_r=1",
   },
   {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
+    icon: whatsapp,
+    link: "https://wa.me/05454885364",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: mail,
+    link: "mailto:ibrahimsafavarol@gmail.com",
   },
 ];
 

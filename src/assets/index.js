@@ -29,6 +29,9 @@ import cocuk from "./cocuk.jpg"
 import mutlu_aile from "./mutlu_aile.jpg"
 import safa from"./safa.webp"
 import pp from "./pp.jpeg"
+import whatsapp from "./whatsapp.svg"
+import tiktok from "./tiktok.svg"
+import mail from "./mail.svg"
 export {
   airbnb,
   bill,
@@ -60,5 +63,8 @@ export {
   cocuk,
   mutlu_aile,
   safa,
-  pp
+  pp,
+  whatsapp,
+  tiktok,
+  mail
 };
