@@ -1,0 +1,116 @@
+.form-fields {
+  display: grid;
+  grid-template-areas:
+    "name email"
+    "subject phone"
+    "message message";
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.name {
+  grid-area: name;
+}
+.email {
+  grid-area: email;
+}
+.subject {
+  grid-area: subject;
+}
+.phone {
+  grid-area: phone;
+}
+.message {
+  grid-area: message;
+  height: 180px;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  border: #ccc solid 1px;
+}
+.border-bottom {
+  height: 3px;
+  width: 3rem;
+  background-color: #ef6d6d;
+  margin: 0 auto 1rem auto;
+}
+.text-center {
+  text-align: center;
+  color: #333;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+.container {
+  flex: 1;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.lead {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  word-spacing: 2px;
+}
+.flexi {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.photoSection {
+  display: flex;
+  flex-direction: row;
+  min-width: 100px;
+
+}
+
+
+@media (max-width: 576px) {
+  .form-fields {
+    grid-template-areas:
+      "name"
+      "email"
+      "subject"
+      "phone"
+      "message"
+      "button";
+  }
+  .flexi {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .photoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
+
+/* @media (max-width: 1300px) {
+    .photoSection {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .photoSub{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15;
+    }
+      
+    
+} */
