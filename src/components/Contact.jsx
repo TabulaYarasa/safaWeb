@@ -106,49 +106,54 @@ const Contact = () => {
                 required
               ></textarea>
             </div>
-            <button className="bg-[#333] text-white px-10 py-2" type="submit">
-              Gönder
-            </button>
+            <div className="flex flex-col">
+              <button className={layout.button} type="submit">
+                Gönder
+              </button>
+            </div>
           </form>
         </div>
-     
+
         {/* className={`${layout.sectionInfo1} mx-5 my-5`} */}
         <div className={layout.sectionInfo1}>
-        
-            <img
-              src={pp}
-              alt="card"
-              className="w-[300px] h-[300px]  xs:w-[200px] xs:h-[200px] "
-            />
-            <div className="mx-5">
-              <h2 className={styles.heading3}>
-                Psk. Dan. <br className="sm:block hidden" /> İbrahim Safa VAROL
-              </h2>
-              <p className={`${styles.paragraph} text-[#ccc]  `}>
-                Psikolojik Danışma ve Rehberlik
-              </p>
-              <div className="flex  bw:flex-col flex-row bwm:flex-col rxs:flex-col ">
-                <div className="flex flex-row ">
-                  <img src={star} alt="star" />
-                  <img src={star} alt="star" />
-                  <img src={star} alt="star" />
-                  <img src={star} alt="star" />
-                  <img src={star} alt="star" />
-                </div>
-                <Link to={LINK}>
-                  <p className="ml-3 mt-1 text-[15px]">24 Görüş</p>
-                </Link>
+          <img
+            src={pp}
+            alt="card"
+            className="w-[300px] h-[300px]  xs:w-[200px] xs:h-[200px] "
+          />
+          <div className="mx-5 ">
+            <h2 className={styles.heading3}>
+              Psk. Dan. <br className="sm:block hidden" /> İbrahim Safa VAROL
+            </h2>
+            <p className={`${styles.paragraph} text-[#ccc] flex justify-center  `}>
+              Psikolojik Danışma ve Rehberlik
+            </p>
+            <div className="flex  bw:flex-col flex-row bwm:flex-col rxs:flex-col xs:justify-center rxs:justify-center  ">
+              <div className="flex flex-row  ">
+                <img src={star} alt="star" />
+                <img src={star} alt="star" />
+                <img src={star} alt="star" />
+                <img src={star} alt="star" />
+                <img src={star} alt="star" />
               </div>
-              <div className="flex flex-1"></div>
-              {/* <p
+              <Link to={LINK}>
+                <p className="ml-3 mt-1 text-[15px] hover:border-b-1 ">
+                  24 Görüş
+                </p>
+              </Link>
+            </div>
+            <div className="flex flex-1"></div>
+            {/* <p
                 className={` ${styles.paragraph} mt-5 lgt:block hidden  md:hidden`}
               >
                 Adres: Hoşnudiye mah. 766.sk Gürdal abacı ofis no:2 daire:1
                 Tepebaşı/ Eskişehir
               </p> */}
+            <div className="flex justify-center">
               <Button title="Danışan Görüşleri" linkTo={LINK} />
             </div>
-    
+          </div>
+
           {/* <p className={` ${styles.paragraph} mt-5 lgt:hidden mb-10`}>
             Adres: Hoşnudiye mah. 766.sk Gürdal abacı ofis no:2 daire:1
             Tepebaşı/ Eskişehir

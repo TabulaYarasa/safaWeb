@@ -3,10 +3,12 @@
   grid-template-areas:
     "name email"
     "subject phone"
-    "message message";
+    "message message"
+   ;
   gap: 1rem;
   margin-bottom: 1rem;
 }
+
 
 .name {
   grid-area: name;

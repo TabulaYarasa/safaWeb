@@ -34,6 +34,8 @@ const styles = {
     xs:${styles.flexCenter} m-5 p-[20px] border-[1px] border-solid border-[#ccc] rounded-[5px] shadow-custom lg:ml-5 mb-5 `,
 
     sectionInfo2: `flex flex-col flex-1 m-5 p-[20px] border-[1px] border-solid border-[#ccc] rounded-[5px] shadow-custom lg:ml-5 mb-5  `,
+
+    button:`bg-[#333] text-white px-10 py-2 ml-auto`
   };
   
   export default styles;
